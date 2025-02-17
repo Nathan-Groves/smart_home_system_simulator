@@ -1,0 +1,21 @@
+<SmartHome>:
+    canvas:
+        # White rectangle
+        Color:
+            rgba: 1, 1, 1, 1  # White color
+        Rectangle:
+            # Centered horizontally, with fixed height and width
+            pos: self.center_x - 200, self.center_y - 200  # Centered box
+            size: 400, 400  # Width and height of the rectangle
+
+    Label:
+        text: "Smart Home Sim"
+        font_size: 30
+        color: 0, 0, 0, 1  # Black text
+        size_hint: None, None  # Avoids stretching
+        size: 400, 80  # Same width as rectagle, fixed height for text
+        center_x: self.parent.center_x  # Center text horizontally
+        center_y: self.parent.center_y  # Center text vertically within rectangle
+        halign: "center"  # Horizontal alignment of text
+        valign: "middle"  # Vertical alignment of text
+        text_size: self.size  # Ensures text wraps within label's size

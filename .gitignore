@@ -1,0 +1,23 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+
+# IDE files
+.vs/
+*.userprefs
+*.suo
+*.user
+
+# Compiled files
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.cache
+
+# NuGet
+packages/
+*.nupkg
+
+# macOS
+.DS_Store

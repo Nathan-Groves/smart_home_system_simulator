@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartHomeSystem.views.LoginView"
+             Title="LoginView">
+
+    <Grid RowDefinitions=".3*,.7*">
+        <Image Aspect="AspectFill" Source="logo.png"/>
+        <Grid BackgroundColor="Blue" Opacity=".8" />
+        <Grid ColumnDefinitions="*,*">
+            <Image Aspect="AspectFit"
+                HeightRequest="120"
+                Source="logo.png"/>
+        </Grid>
+    </Grid>
+</ContentPage>

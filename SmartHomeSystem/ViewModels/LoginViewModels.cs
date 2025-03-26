@@ -53,4 +53,6 @@ public partial class LoginViewModel : ObservableObject
         await Shell.Current.DisplayAlert("Reset Password", 
             "Password reset link will be sent to your email.", "OK");
     }
+
+    
 }

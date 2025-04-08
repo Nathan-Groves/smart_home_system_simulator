@@ -1,4 +1,4 @@
-﻿namespace SmartHomeSystem; //change this to project name
+﻿namespace SmartHomeSystem;
 
 // All the code in this file is included in all platforms.
 

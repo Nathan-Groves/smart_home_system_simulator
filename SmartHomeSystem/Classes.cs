@@ -1,4 +1,4 @@
-﻿namespace SmartHomeSystem;
+namespace SmartHomeSystem;
 
 // All the code in this file is included in all platforms.
 
@@ -133,7 +133,8 @@ using Microsoft.Maui.Graphics;
 
     public class DoorLock : Device
     {
-        public bool IsLocked { get; private set; } = true;
+        //currently public, will make private later
+        public bool IsLocked { get; set; } = true;
 
         public void Lock()
         {
